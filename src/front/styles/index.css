@@ -1,3 +1,31 @@
 /* 
     General Styles used on every website (Don't Repeat Yourself)
 */
+html {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.navbar {
+    border-bottom: 2px solid #486572;
+}
+
+.container-form {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.btn-form {
+    background-color: #486572!important;
+    color: #fff!important;
+}
+
+.btn-form:hover {
+    background-color: #efeae4!important;
+    color: #486572!important;
+}
